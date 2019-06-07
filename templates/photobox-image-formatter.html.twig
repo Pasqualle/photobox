@@ -1,0 +1,27 @@
+{#
+/**
+ * @file
+ * Default theme implementation to display a image field in photobox.
+ *
+ * Available variables:
+ * - image: A collection of image data.
+ * - image_style: Small image style.
+ * - large_image_style: Large image style.
+ * - large_image_url: Absolute url to the large image.
+ * - gallery_id: Photobox gallery Id
+ * - caption_selection: How the caption is selected "title"/"alt"
+ * - caption: The caption for the large image
+ *
+ * @see template_preprocess_photobox_image_formatter()
+ *
+ * @ingroup themeable
+ */
+#}
+
+<a href="{{ large_image_url }}"
+  data-photobox-gallery="{{ gallery_id }}"
+  title="{{ caption }}"
+  class="photobox"
+>
+  {{ image }}
+</a>

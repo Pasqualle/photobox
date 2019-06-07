@@ -1,0 +1,8 @@
+name: Photobox
+type: module
+description: Display an image field as photobox image gallery.
+package: Media
+core: 8.x
+dependencies:
+  - drupal:system (>=8.7)
+  - drupal:image

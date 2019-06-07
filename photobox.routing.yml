@@ -1,0 +1,11 @@
+
+photobox.settings_form:
+  path: '/admin/config/media/photobox/settings'
+  defaults:
+    _form: '\Drupal\photobox\Form\SettingsForm'
+    _title: 'Photobox Settings'
+  requirements:
+    _permission: 'access administration pages'
+  options:
+    _admin_route: TRUE
+

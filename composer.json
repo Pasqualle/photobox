@@ -1,0 +1,29 @@
+{
+  "name": "drupal/photobox",
+  "type": "drupal-module",
+  "description": "Display an image field as photobox image gallery.",
+  "keywords": ["Drupal", "Photobox"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/photobox",
+  "minimum-stability": "dev",
+  "authors": [
+    {
+      "name": "Andrew Berezovsky",
+      "homepage": "https://www.drupal.org/u/duozersk",
+      "role": "Maintainer"
+    },
+    {
+      "name": "Bálint Csuthy",
+      "homepage": "https://www.drupal.org/u/pasqualle",
+      "role": "Maintainer"
+    }
+  ],
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/photobox",
+    "source": "https://git.drupalcode.org/project/photobox"
+  },
+  "require": {},
+  "suggest": {
+    "yairEO/photobox": "Please download the photobox library from https://github.com/yairEO/photobox/releases"
+  }
+}

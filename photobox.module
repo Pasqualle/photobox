@@ -1,0 +1,19 @@
+<?php
+/**
+ * Implements hook_theme().
+ */
+function photobox_theme() {
+  return [
+    'photobox_image_formatter' => [
+      'variables' => [
+        'item' => NULL,
+        'item_attributes' => NULL,
+        'image_style' => NULL,
+        'large_image_style' => NULL,
+        'gallery_id' => NULL,
+        'caption_selection' => NULL,
+      ],
+      'file' => 'image.field.inc',
+    ],
+  ];
+}

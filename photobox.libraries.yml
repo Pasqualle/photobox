@@ -1,0 +1,23 @@
+libraries.jquery.photobox:
+  title: 'Photobox'
+  website: http://yaireo.github.io/photobox/
+  version: '1.9.2'
+  license:
+    name: GNU AGPLv3
+    url: https://github.com/yairEO/photobox/blob/master/LICENSE
+    gpl-compatible: true
+  js:
+    /libraries/photobox/photobox/jquery.photobox.js: {}
+  css:
+    theme:
+      /libraries/photobox/photobox/photobox.css: {}
+  dependencies:
+    - core/jquery
+
+drupal.photobox.integration:
+  version: VERSION
+  js:
+    js/photobox.integration.js: {}
+  dependencies:
+    - core/drupal
+    - core/drupalSettings

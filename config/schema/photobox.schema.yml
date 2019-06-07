@@ -1,0 +1,33 @@
+photobox.settings:
+  type: config_object
+  label: 'Photobox settings'
+  mapping:
+    history:
+      type: boolean
+      label: 'Browser history'
+    loop:
+      type: boolean
+      label: 'Loop'
+    thumbs:
+      type: boolean
+      label: 'Thumbs' 
+    zoomable:
+      type: boolean
+      label: 'Zoom' 
+
+field.formatter.settings.photobox:
+  type: mapping
+  label: 'Image field photobox display format settings'
+  mapping:
+    image_style:
+      type: string
+      label: 'Small image style'
+    large_image_style:
+      type: string
+      label: 'Large image style'
+    gallery_id:
+      type: string
+      label: 'Gallery (image grouping)'
+    caption_selection:
+      type: string
+      label: 'Image title or alt should be used as caption inside gallery'

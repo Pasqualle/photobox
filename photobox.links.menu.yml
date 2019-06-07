@@ -1,0 +1,4 @@
+photobox.settings_form:
+  title: 'Photobox settings'
+  route_name: photobox.settings_form
+  parent: system.admin_config_media
